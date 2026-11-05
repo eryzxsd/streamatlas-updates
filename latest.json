@@ -1,11 +1,11 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 35,
-  "versionName": "1.4.7",
+  "versionCode": 36,
+  "versionName": "1.4.8",
   "minSdk": 23,
-  "notes": "Automatic stream recovery continues with paced retries instead of stopping after three attempts.\nPlayback reconnects when internet access returns or the active network changes.\nAdded update prompts with release notes, Later and Download, plus Settings > Check for app updates.\nImproved TV Guide toolbar navigation.\nStream availability still depends on the source and network.",
+  "notes": "Guide: choose loaded dates and a local time, or return to Now. Compact phone layouts use the Guide menu; past/future listings open schedule details.\nTV: enter a channel number, then press OK or wait 1.5 seconds. Back cancels and Delete edits. Accessibility timing preferences are respected.\nNumeric tuning works in both players and fullscreen browsing without clearing search or filters. Numbers appear in TV rows; playlist numbers are preferred.\nImproved large-text Guide layout and preserved compatibility browsing order.\nStream and schedule availability still depend on the sources.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/AHj8Ur9C",
-    "arm64-v8a": "https://gofile.io/d/QZrl5ExU"
+    "armeabi-v7a": "https://gofile.io/d/S8pVdHJj",
+    "arm64-v8a": "https://gofile.io/d/DJPffkJp"
   }
 }
