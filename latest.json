@@ -1,11 +1,11 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 37,
-  "versionName": "1.4.9",
+  "versionCode": 38,
+  "versionName": "1.5.0",
   "minSdk": 23,
-  "notes": "TV layouts: more room for channels and Guide rows, compact headers and Settings with a fixed Save/Cancel footer.\nOptional channel-logo grid in Channels, Favorites and fullscreen browsing, with shared search and remote navigation.\nNumeric tuning is now a setting, enabled by default on TV. Optional fullscreen clock follows device time format.\nSet reminders from future Guide/search details, at start or five minutes before; manage them in Settings. Saving asks for notification permission. Android may delay alerts; precise timing is optional.\nPlayback engines and EPG providers are unchanged.",
+  "notes": "Settings and Home Search now use standard Google Material tabs, switches, dropdowns, fields and buttons.\nNormal video decoding: Auto / HW / SW. Compatibility: Auto / HW / HW+ / SW. HW+ requests forced hardware/direct rendering with VLC fallback. Normal changes apply when reopening a channel; the compatibility in-player chooser reconnects immediately.\nPlay in background and Picture-in-picture have separate actions/options. Background defaults off. If both automatic options are on, PiP takes priority; explicit Play in background skips PiP for that departure.\nRemoved Guide Date & time and Now controls, including overflow versions. Current/next listings, full schedules and reminders remain.\nMultiple playlists are planned for later, not included in this update.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/ONVH1Qoy",
-    "arm64-v8a": "https://gofile.io/d/GgJ40ZqX"
+    "armeabi-v7a": "https://gofile.io/d/B6abdAT5",
+    "arm64-v8a": "https://gofile.io/d/e5CkzyRR"
   }
 }
