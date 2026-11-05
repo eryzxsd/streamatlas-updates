@@ -1,18 +1,19 @@
 # StreamAtlas updates
 
-Current release: **1.4.8** (version code 36), Android 6 or newer.
+Current release: **1.4.9** (version code 37), Android 6 or newer.
 
-- [32-bit ARM APK](https://gofile.io/d/S8pVdHJj)
-- [64-bit ARM APK](https://gofile.io/d/DJPffkJp)
+- [32-bit ARM APK (TV and phone)](https://gofile.io/d/ONVH1Qoy)
+- [64-bit ARM APK](https://gofile.io/d/GgJ40ZqX)
 
 ## Changes
 
-- Guide date/time browsing of loaded schedules, with a Now shortcut. Compact phone layouts put the actions in the Guide menu. Past/future listings open details; streams remain live.
-- Numeric TV tuning: enter up to five digits, then OK or a short wait. Back cancels, Delete edits, and navigation/pointer input cancels entry. Search fields retain numeric input. Android accessibility timing is respected.
-- Both players and fullscreen browsing use global channel numbers without clearing filters. Playlist numbers are preferred; fallback numbers follow playlist order and can change after provider reordering.
-- Improved large-text Guide layout and preserved sorted compatibility browsing order.
+- TV layouts reclaim space in Home, Channels, Guide, fullscreen browsing, search and Settings. The Settings form scrolls above fixed Save/Cancel buttons.
+- Settings > Channel layout: logo grid adds logo tiles in Channels, Favorites and fullscreen browsing. Search, favorites and channel numbers are shared; Home and Guide keep their layouts.
+- Numeric tuning is optional, enabled by default on TV. Show clock in fullscreen video is a separate option, off by default, and yields to controls and numeric entry.
+- Future Guide/programme-search details offer reminders at start or five minutes before. Settings > Programme reminders manages them. Saving requests notification permission where required. Android may delay approximate alerts; precise timing access is optional. Notifications open details and require Watch live to tune.
+- Playback engines, buffers, retries and EPG providers are unchanged.
 
-Users on 1.4.7 can use Settings > Check for app updates. Older builds need manual installation. The app checks [latest.json](latest.json) and selects a matching architecture. Android controls installation; the package/signing key are unchanged. Provider and schedule availability remain outside the app's control.
+Use Settings > Check for app updates. Builds older than 1.4.7 need manual installation. The app checks [latest.json](latest.json) and selects a matching architecture. Android controls installation; the package/signing key are unchanged. Provider and schedule availability remain outside the app's control.
 
 ## Publishing a release
 
