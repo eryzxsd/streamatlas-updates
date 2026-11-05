@@ -1,11 +1,11 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 36,
-  "versionName": "1.4.8",
+  "versionCode": 37,
+  "versionName": "1.4.9",
   "minSdk": 23,
-  "notes": "Guide: choose loaded dates and a local time, or return to Now. Compact phone layouts use the Guide menu; past/future listings open schedule details.\nTV: enter a channel number, then press OK or wait 1.5 seconds. Back cancels and Delete edits. Accessibility timing preferences are respected.\nNumeric tuning works in both players and fullscreen browsing without clearing search or filters. Numbers appear in TV rows; playlist numbers are preferred.\nImproved large-text Guide layout and preserved compatibility browsing order.\nStream and schedule availability still depend on the sources.",
+  "notes": "TV layouts: more room for channels and Guide rows, compact headers and Settings with a fixed Save/Cancel footer.\nOptional channel-logo grid in Channels, Favorites and fullscreen browsing, with shared search and remote navigation.\nNumeric tuning is now a setting, enabled by default on TV. Optional fullscreen clock follows device time format.\nSet reminders from future Guide/search details, at start or five minutes before; manage them in Settings. Saving asks for notification permission. Android may delay alerts; precise timing is optional.\nPlayback engines and EPG providers are unchanged.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/S8pVdHJj",
-    "arm64-v8a": "https://gofile.io/d/DJPffkJp"
+    "armeabi-v7a": "https://gofile.io/d/ONVH1Qoy",
+    "arm64-v8a": "https://gofile.io/d/GgJ40ZqX"
   }
 }
