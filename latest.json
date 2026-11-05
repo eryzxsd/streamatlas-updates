@@ -1,11 +1,11 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 34,
-  "versionName": "1.4.6",
+  "versionCode": 35,
+  "versionName": "1.4.7",
   "minSdk": 23,
-  "notes": "Programme search and Guide details.",
+  "notes": "Automatic stream recovery continues with paced retries instead of stopping after three attempts.\nPlayback reconnects when internet access returns or the active network changes.\nAdded update prompts with release notes, Later and Download, plus Settings > Check for app updates.\nImproved TV Guide toolbar navigation.\nStream availability still depends on the source and network.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/M4vVHUrF",
-    "arm64-v8a": "https://gofile.io/d/NGkXs3kM"
+    "armeabi-v7a": "https://gofile.io/d/AHj8Ur9C",
+    "arm64-v8a": "https://gofile.io/d/QZrl5ExU"
   }
 }
