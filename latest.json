@@ -1,0 +1,11 @@
+{
+  "packageName": "org.streamatlas.player.debug",
+  "versionCode": 34,
+  "versionName": "1.4.6",
+  "minSdk": 23,
+  "notes": "Programme search and Guide details.",
+  "downloads": {
+    "armeabi-v7a": "https://gofile.io/d/M4vVHUrF",
+    "arm64-v8a": "https://gofile.io/d/NGkXs3kM"
+  }
+}
