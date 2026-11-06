@@ -1,24 +1,26 @@
 # StreamAtlas updates
 
-Current release: **1.5.2** (version code 40), Android 6 or newer.
+Current release: **1.5.3** (version code 41), Android 6 or newer.
 
-- [32-bit ARM APK (TV and phone)](https://gofile.io/d/nHLoQQSS)
-- [64-bit ARM APK](https://gofile.io/d/kcmcYEIC)
+- [32-bit ARM APK (TV and phone)](https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-armv7.apk)
+- [64-bit ARM APK](https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-arm64.apk)
+- [Release notes and APKs](https://github.com/eryzxsd/streamatlas-updates/releases/tag/v1.5.3)
 
 ## Changes
 
-- Settings descriptions and helper text use smaller, secondary Material typography. Native controls and font scaling remain. The default Settings scrollbar is hidden while swipe and remote scrolling remain available.
-- Closing PiP stops playback outside the app. Returning reopens that channel once after foreground resume and focus, including compatibility playback and custom streams. Pause, Stop, sleep expiry, focus loss and errors prevent unwanted recovery. Removed channels and changed playlists are discarded. Guide loading does not block recovery; expanding visible PiP keeps playing.
-- The optional fullscreen clock uses tabular numerals, a compact Material surface and larger edge insets. It remains passive, follows the device time format and hides for controls, numeric tuning and PiP.
+- Guide puts current/upcoming programme coverage first, preserving order within covered and uncovered groups and retaining scrolled anchors.
+- Fullscreen browsing adds All, Favorites, Recent and categories. Search stays shared. Recent follows playback order. Disabling numeric tuning hides both input overlays and channel-number prefixes. The floating fullscreen shortcut no longer appears when video controls hide; the bar retains fullscreen and compact mini-player expansion remains accessible.
+- Direct APK downloads run through Android DownloadManager, with percentage/byte progress, Hide, Cancel and Retry. Size, SHA-256, package, version and current signing certificate must match before Install becomes available. Android retains control of installation; allowing updates from StreamAtlas may be required.
+- Compatibility HW/HW+ labels now explain VLC decoding-only versus decoding plus direct rendering. Explicit HW follows official VLC options. These are VLC modes, not a copy of MX Player's proprietary framework. Auto, SW, normal Media3 selection and native libraries remain unchanged.
 
-Use Settings > App > Check for app updates to fetch the matching architecture. Builds older than 1.4.7 need manual installation. Installation stays under Android/user control; package/signing key are unchanged.
+Use Settings > App > Check for app updates. Existing older builds open the browser once to install 1.5.3; later direct releases can download inside the updated app. The feed selects a supported system ABI. Package/signing key are unchanged, so updating preserves app data. Downloads are now hosted on GitHub Releases.
 
-Native libraries, decoder profiles, buffering, source retries and EPG providers are unchanged. Multiple playlists remain planned for later. Host verification does not certify physical-device playback or firmware behaviour.
+129 targeted host checks across 17 suites passed; assembly and lint passed with zero errors (107 warnings). All APK signatures and unchanged native library bytes verified. Uploaded GitHub asset sizes/SHA-256 match local signed files. Native phone/TV/large-text samples inspected; no physical-device playback or installer verification is claimed. Multiple playlists remain planned for later.
 
 ## Publishing a release
 
-1. Build with a higher versionCode, the same package name and signing key.
-2. Test and verify APK signatures, upload each APK and verify upload size/hash.
-3. Update latest.json with version code/name, minimum SDK, plain-text notes and verified HTTPS download pages. Keep the raw feed URL stable.
+1. Build a higher versionCode with the same package and signing key.
+2. Test, verify signatures, upload matching ARM APKs to GitHub Releases and verify uploaded size/SHA-256 and public URLs.
+3. Update latest.json with version code/name, minimum SDK, notes, HTTPS downloads, and directDownloads objects containing url/sha256/size per ABI. Keep the raw feed URL stable. Older apps ignore directDownloads and use downloads in their browser.
 
-This feed holds public release information, not user watch history. File-host links may expire and can be replaced. GitHub raw caching may briefly retain the preceding manifest.
+This repository holds public release metadata and APKs, not user watch history. Installation remains an explicit Android/user action. GitHub raw caching can briefly retain the preceding manifest.
