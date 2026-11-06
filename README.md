@@ -1,20 +1,19 @@
 # StreamAtlas updates
 
-Current release: **1.5.1** (version code 39), Android 6 or newer.
+Current release: **1.5.2** (version code 40), Android 6 or newer.
 
-- [32-bit ARM APK (TV and phone)](https://gofile.io/d/JZxf5tv3)
-- [64-bit ARM APK](https://gofile.io/d/JDxVxuCR)
+- [32-bit ARM APK (TV and phone)](https://gofile.io/d/nHLoQQSS)
+- [64-bit ARM APK](https://gofile.io/d/kcmcYEIC)
 
 ## Changes
 
-- Closing PiP stops playback, clears background/resume/retry intent and removes notification controls, even with automatic background playback enabled. Expanding visible PiP keeps playing. Compatibility closure follows the existing isolated-process exit path without synchronous native stop on the UI thread.
-- Guide details and update availability now use provided Material typography, dividers and standard action buttons. Status/coverage lead Guide details; long URLs and release notes scroll above fixed actions.
-- Compatibility playback now checks for automatic updates too. Unacknowledged available results can be rechecked after activity/process loss. Failed/incomplete checks become eligible after five minutes; successful no-update checks retain twelve hours. Checks run at startup/check events, not as continuous polling. Explicit interrupted close permits recheck.
-- Later postpones the same version for24h; successful Download acknowledgement is shared for12h between players. Manual checks bypass acknowledgement delays.
+- Settings descriptions and helper text use smaller, secondary Material typography. Native controls and font scaling remain. The default Settings scrollbar is hidden while swipe and remote scrolling remain available.
+- Closing PiP stops playback outside the app. Returning reopens that channel once after foreground resume and focus, including compatibility playback and custom streams. Pause, Stop, sleep expiry, focus loss and errors prevent unwanted recovery. Removed channels and changed playlists are discarded. Guide loading does not block recovery; expanding visible PiP keeps playing.
+- The optional fullscreen clock uses tabular numerals, a compact Material surface and larger edge insets. It remains passive, follows the device time format and hides for controls, numeric tuning and PiP.
 
-If the existing phone build misses the automatic prompt, use Settings > App > Check for app updates once to install this fix. Builds older than1.4.7 need manual installation. The app reads [latest.json](latest.json) and selects the matching architecture. Installation stays under Android/user control; package/signing key are unchanged.
+Use Settings > App > Check for app updates to fetch the matching architecture. Builds older than 1.4.7 need manual installation. Installation stays under Android/user control; package/signing key are unchanged.
 
-Decoder profiles, buffering, source retries and EPG providers are unchanged. Multiple playlists remain planned for a later update. Host verification does not certify physical-device decoding or firmware behaviour.
+Native libraries, decoder profiles, buffering, source retries and EPG providers are unchanged. Multiple playlists remain planned for later. Host verification does not certify physical-device playback or firmware behaviour.
 
 ## Publishing a release
 
