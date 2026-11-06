@@ -1,11 +1,11 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 38,
-  "versionName": "1.5.0",
+  "versionCode": 39,
+  "versionName": "1.5.1",
   "minSdk": 23,
-  "notes": "Settings and Home Search now use standard Google Material tabs, switches, dropdowns, fields and buttons.\nNormal video decoding: Auto / HW / SW. Compatibility: Auto / HW / HW+ / SW. HW+ requests forced hardware/direct rendering with VLC fallback. Normal changes apply when reopening a channel; the compatibility in-player chooser reconnects immediately.\nPlay in background and Picture-in-picture have separate actions/options. Background defaults off. If both automatic options are on, PiP takes priority; explicit Play in background skips PiP for that departure.\nRemoved Guide Date & time and Now controls, including overflow versions. Current/next listings, full schedules and reminders remain.\nMultiple playlists are planned for later, not included in this update.",
+  "notes": "Closing PiP now stops playback and notification audio in both players, even with background playback enabled or late mode callbacks. Expanding visible PiP keeps playing. Compatibility closure uses the existing isolated-process exit path.\nGuide details and the update dialog now use provided Material typography, dividers and standard buttons.\nAutomatic update checks now run during compatibility playback too. Available updates can be rechecked after activity/process loss; failed checks have a five-minute retry eligibility window rather than twelve hours. Successful no-update checks retain twelve hours. Later and Download acknowledgements are shared across players; manual checking remains available.\nStream buffers, decoder profiles and EPG providers are unchanged.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/B6abdAT5",
-    "arm64-v8a": "https://gofile.io/d/e5CkzyRR"
+    "armeabi-v7a": "https://gofile.io/d/JZxf5tv3",
+    "arm64-v8a": "https://gofile.io/d/JDxVxuCR"
   }
 }
