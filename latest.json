@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 42,
-  "versionName": "1.5.4",
+  "versionCode": 43,
+  "versionName": "1.6.0",
   "minSdk": 23,
-  "notes": "Fixes mobile video corner marks: fullscreen and PiP no longer retain the inline player rounded background/clipping outline. Inline styling returns on exit.\nFixes overlapping Sources URL labels using a Material floating label and a separate placeholder. URL examples stay on one line with an ellipsis at large font sizes; XMLTV .xml/.xml.gz support is explained below the guide field.\nPlayback engines, buffering, EPG sources and existing preferences are unchanged. Version 1.5.3 can download this update inside the app with progress; Android retains installation control.",
+  "notes": "Save multiple playlists: merge enabled sources by default, or switch to a single playlist. Add optional Free-TV, Australia/Sydney and New Zealand presets.\nIPTV-EPG country guides merge with existing guides by default. All 67 published countries are selectable; automatic loading fetches countries identified in enabled channel IDs. Existing schedules take priority. EPG coverage requires matching IDs. Country/provider switches and custom XMLTV sources are available in Settings > Sources > Playlists & guides.\nGuide data appears progressively, with per-source caching and saved-guide fallback. New source identities are preserved through favourites, PiP and compatibility browsing.\nRestores automatic foreground update checking on mobile and TV and adds Cancel/Exit confirmation at the app root. Existing playback engines and native libraries are retained.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.4/StreamAtlas-1.5.4-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.4/StreamAtlas-1.5.4-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.0/StreamAtlas-1.6.0-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.0/StreamAtlas-1.6.0-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.4/StreamAtlas-1.5.4-armv7.apk",
-      "sha256": "21c9124372cd106e6db3d3420c81199cb492dbb8e8b902848ebfb59e27e4a3e7",
-      "size": 33679256
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.0/StreamAtlas-1.6.0-armv7.apk",
+      "sha256": "a6d9e077cda519bda2d66f5e4a47683a57c6b129c04769d9bcc7cb8f5fdcf96a",
+      "size": 33729754
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.4/StreamAtlas-1.5.4-arm64.apk",
-      "sha256": "f69109ed654e0f0f8ceea6aa8a0e9fd73a5bce618a3d205b2f422d03c2ab9afa",
-      "size": 37746314
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.0/StreamAtlas-1.6.0-arm64.apk",
+      "sha256": "eee89690e27a6fcb9207c7d553e35b0268b9a291246e761757eedc22cfd73063",
+      "size": 37796808
     }
   }
 }
