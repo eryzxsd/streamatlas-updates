@@ -1,19 +1,20 @@
 # StreamAtlas updates
 
-Current release: **1.5.0** (version code 38), Android 6 or newer.
+Current release: **1.5.1** (version code 39), Android 6 or newer.
 
-- [32-bit ARM APK (TV and phone)](https://gofile.io/d/B6abdAT5)
-- [64-bit ARM APK](https://gofile.io/d/e5CkzyRR)
+- [32-bit ARM APK (TV and phone)](https://gofile.io/d/JZxf5tv3)
+- [64-bit ARM APK](https://gofile.io/d/JDxVxuCR)
 
 ## Changes
 
-- Settings and the contents of Home Search use Google's provided Material components and existing app theme. Settings groups Playback, Channels, Sources and App, retains drafts across tabs and keeps Save/Cancel outside scrolling content.
-- Independent video decoding choices: normal Auto/HW/SW; compatibility Auto/HW/HW+/SW. Normal HW prefers hardware with decoder fallback; SW uses available Android software video codecs. Compatibility HW disables direct rendering; HW+ requests forced hardware/direct rendering with VLC fallback. Auto remains the default. Normal changes apply when reopening a channel; the compatibility in-player chooser reconnects immediately.
-- Play in background and Picture-in-picture are separate menu actions and automatic options. Background defaults off. Both automatic options prefer PiP; explicitly choosing background skips PiP for that departure. Pause/Stop and sleep timers remain respected.
-- Guide always shows current/next. Date & time and Now controls were removed, including overflow versions; full schedules and future reminders remain.
-- Multiple playlists are planned for a later update and are not shipped in this version.
+- Closing PiP stops playback, clears background/resume/retry intent and removes notification controls, even with automatic background playback enabled. Expanding visible PiP keeps playing. Compatibility closure follows the existing isolated-process exit path without synchronous native stop on the UI thread.
+- Guide details and update availability now use provided Material typography, dividers and standard action buttons. Status/coverage lead Guide details; long URLs and release notes scroll above fixed actions.
+- Compatibility playback now checks for automatic updates too. Unacknowledged available results can be rechecked after activity/process loss. Failed/incomplete checks become eligible after five minutes; successful no-update checks retain twelve hours. Checks run at startup/check events, not as continuous polling. Explicit interrupted close permits recheck.
+- Later postpones the same version for24h; successful Download acknowledgement is shared for12h between players. Manual checks bypass acknowledgement delays.
 
-Use Check for app updates in Settings (App tab in the new Settings). Builds older than 1.4.7 need manual installation. The app reads [latest.json](latest.json) and selects the matching architecture. Android controls installation; package/signing key are unchanged. Stream and schedule availability depend on their sources. Host tests do not certify physical-device codec performance.
+If the existing phone build misses the automatic prompt, use Settings > App > Check for app updates once to install this fix. Builds older than1.4.7 need manual installation. The app reads [latest.json](latest.json) and selects the matching architecture. Installation stays under Android/user control; package/signing key are unchanged.
+
+Decoder profiles, buffering, source retries and EPG providers are unchanged. Multiple playlists remain planned for a later update. Host verification does not certify physical-device decoding or firmware behaviour.
 
 ## Publishing a release
 
