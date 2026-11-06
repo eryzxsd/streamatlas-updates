@@ -1,11 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 40,
-  "versionName": "1.5.2",
+  "versionCode": 41,
+  "versionName": "1.5.3",
   "minSdk": 23,
-  "notes": "Settings descriptions and helper text are smaller and use secondary Material text colour. The default Settings scrollbar is hidden; swipe and remote scrolling remain.\nClosing PiP stops playback outside the app. Returning reopens the channel once after foreground resume and focus, including compatibility playback and custom streams. Explicit Pause, Stop, sleep expiry, focus loss and errors prevent unwanted recovery. Removed channels and changed playlists are discarded; EPG loading does not delay channel recovery. Expanding visible PiP keeps playing.\nThe optional fullscreen clock now uses tabular numerals, a compact Material surface and larger edge insets. It remains passive and hides during controls, numeric tuning and PiP.\nNative libraries, decoder profiles, stream buffers and EPG sources are unchanged.",
+  "notes": "Guide places channels with current/upcoming programmes first, then channels without guide coverage. Fullscreen browsing adds All, Favorites, Recent and categories with shared search.\nNumeric tuning Off now hides channel-number labels and entry overlays. The floating fullscreen button no longer appears after the player bar hides; fullscreen remains in the bar.\nThis version enables direct downloads for future updates, with percentage/byte progress, Hide, Cancel, Retry and verified installation. Older builds open their browser once to install this release. Android controls installation and may require allowing updates from StreamAtlas.\nHW/HW+ now explain VLC decoding-only versus decoding plus direct rendering, with explicit HW aligned to official VLC options. Auto, SW, normal Media3 selection, native libraries, stream buffers and EPG providers remain unchanged.",
   "downloads": {
-    "armeabi-v7a": "https://gofile.io/d/nHLoQQSS",
-    "arm64-v8a": "https://gofile.io/d/kcmcYEIC"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-arm64.apk"
+  },
+  "directDownloads": {
+    "armeabi-v7a": {
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-armv7.apk",
+      "sha256": "4a5c3335ea28a579f7dd8625a0f2746648714425a9028ffa36e2bf01566aa129",
+      "size": 33565200
+    },
+    "arm64-v8a": {
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.5.3/StreamAtlas-1.5.3-arm64.apk",
+      "sha256": "378f321b32582304d6085375ba0de8ce6a72344717a41752da7025f308a6e14a",
+      "size": 37632250
+    }
   }
 }
