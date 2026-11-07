@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 50,
-  "versionName": "1.6.7",
+  "versionCode": 51,
+  "versionName": "1.6.8",
   "minSdk": 23,
-  "notes": "Rounded player controls for Normal and Compatibility on TV and phones. Android TV-inspired tonal focus and pressed states replace the white outlines.",
+  "notes": "Try the optional React Native Watch Desk preview from Settings > App > Watch Desk preview. It installs separately and requires Android 7 or newer. The regular StreamAtlas app still supports Android 6 and newer.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-armv7.apk",
-      "sha256": "e4e47b3a272b1a2ade9a2e60e6b4ebefad401e4568a7f63a2b88b68e820509da",
-      "size": 33506656
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-armv7.apk",
+      "sha256": "9c3ba422ce4db9366ab072ad3570a27469a38961a07d19e6e407150ab23802f7",
+      "size": 33510427
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-arm64.apk",
-      "sha256": "a48f9f61ed783b5fad18b681b1f6c8c5e806b114a612348e131086d80fd5c333",
-      "size": 37573723
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-arm64.apk",
+      "sha256": "0eeeeca8bf5ecdb7ba0681a3b621c4ee9b603409ba58f757d60eb3462a74d01c",
+      "size": 37577481
     }
   }
 }
