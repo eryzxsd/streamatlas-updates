@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 44,
-  "versionName": "1.6.1",
+  "versionCode": 45,
+  "versionName": "1.6.2",
   "minSdk": 23,
-  "notes": "Playlist loading, saved source management and M3U parsing now use Kotlin. XMLTV parsing, merged EPG loading and guide-cache handoff also use Kotlin.\nPreserves the current Google Material interface, mobile/TV player controls, playback engines and guide providers. Existing playlist settings, channel IDs, favourites and cache formats remain compatible.\nRetains background loading ownership, cancellation, cached fallback and progressive guide results. Kotlin is the project default for future features and UI work.",
+  "notes": "Redesigned Android TV Home with a Settings gear beside Search, a wider programme preview, and six channels visible at 960x540. Updated the fullscreen channel header and remote-focus controls in both players.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.1/StreamAtlas-1.6.1-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.1/StreamAtlas-1.6.1-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.1/StreamAtlas-1.6.1-armv7.apk",
-      "sha256": "d8beb6725726cbd52df49cbdafec6d807ce8c4d2e8d16fa8e059fa8ee229a335",
-      "size": 33490467
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-armv7.apk",
+      "sha256": "514c5a60eae889c6d3ce7aa83aea9d06f53f35c83b2d307ade27a3c1ba15b961",
+      "size": 34833438
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.1/StreamAtlas-1.6.1-arm64.apk",
-      "sha256": "0ea164a9b40622df91b5662de8c8e8618dd78e8edf1266ad6a2c3fcff9bccf89",
-      "size": 37557523
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-arm64.apk",
+      "sha256": "cbdd1ffdc579752dceaab00a10f9e83128dc14877a8fbe5d9bf998a499951146",
+      "size": 38900488
     }
   }
 }
