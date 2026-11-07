@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 51,
-  "versionName": "1.6.8",
+  "versionCode": 52,
+  "versionName": "1.6.9",
   "minSdk": 23,
-  "notes": "Try the optional React Native Watch Desk preview from Settings > App > Watch Desk preview. It installs separately and requires Android 7 or newer. The regular StreamAtlas app still supports Android 6 and newer.",
+  "notes": "Redesigned Android TV Home, Channels, Guide, and Favorites. Home shows programme progress and what is next. The Channels side panel previews programme details as you move focus. The main app uses native Android UI with Jetpack Compose and Material 3.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-armv7.apk",
-      "sha256": "9c3ba422ce4db9366ab072ad3570a27469a38961a07d19e6e407150ab23802f7",
-      "size": 33510427
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-armv7.apk",
+      "sha256": "d6944057ae4240719a6bc091854f74850443db96320e4cc7761186558179d20f",
+      "size": 41082087
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.8/StreamAtlas-1.6.8-arm64.apk",
-      "sha256": "0eeeeca8bf5ecdb7ba0681a3b621c4ee9b603409ba58f757d60eb3462a74d01c",
-      "size": 37577481
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-arm64.apk",
+      "sha256": "41d89d1af190806fbef8f0382a01a74395253019dde3ff596e601a816027206a",
+      "size": 45149517
     }
   }
 }
