@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 46,
-  "versionName": "1.6.3",
+  "versionCode": 47,
+  "versionName": "1.6.4",
   "minSdk": 23,
-  "notes": "Mobile fullscreen redesign in Normal and Compatibility players with channel identity, current programme, and a compact icon bar.",
+  "notes": "TV redesign with white underline tab focus, updated Channels, Guide and Favorites, and a compact mini-player with a labeled Fullscreen action. Refreshed Material Settings, search, fullscreen channel browser, and guide details. Phones get updated mini-player styling.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.4/StreamAtlas-1.6.4-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.4/StreamAtlas-1.6.4-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-armv7.apk",
-      "sha256": "879994d073054fe0dbc5baf9f7518eb2dd4a4a6bbfa60d17e05e7a22dad4efc1",
-      "size": 33500429
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.4/StreamAtlas-1.6.4-armv7.apk",
+      "sha256": "958571a631b94497fc803b91a22995721ef0e501d3ce8bcf29c3712c16809bef",
+      "size": 33780568
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-arm64.apk",
-      "sha256": "939113a7f498cc4237d1d312160ce566627d9390a288c385be68e2a49cbf2a0c",
-      "size": 37567489
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.4/StreamAtlas-1.6.4-arm64.apk",
+      "sha256": "3529843c0b336732597a7863a5fa1cb7863b8275d539416f94e669616d7e6726",
+      "size": 37847623
     }
   }
 }
