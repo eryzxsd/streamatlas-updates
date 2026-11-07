@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 49,
-  "versionName": "1.6.6",
+  "versionCode": 50,
+  "versionName": "1.6.7",
   "minSdk": 23,
-  "notes": "New centered Now Watching fullscreen dock on TV and phones, with channel information above grouped controls. Every player control has a white outline, with a brighter outline for focus. Available in Normal and Compatibility players.",
+  "notes": "Rounded player controls for Normal and Compatibility on TV and phones. Android TV-inspired tonal focus and pressed states replace the white outlines.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-armv7.apk",
-      "sha256": "20bbb2546bfc71ca70aa60aeaca14910f5d06f5b4718730c7cc837de4640eef3",
-      "size": 33676042
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-armv7.apk",
+      "sha256": "e4e47b3a272b1a2ade9a2e60e6b4ebefad401e4568a7f63a2b88b68e820509da",
+      "size": 33506656
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-arm64.apk",
-      "sha256": "967dcac9156ff704d505200d578e99f5ea5dcbde8ed8ca34059676d69f549b5f",
-      "size": 37743092
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.7/StreamAtlas-1.6.7-arm64.apk",
+      "sha256": "a48f9f61ed783b5fad18b681b1f6c8c5e806b114a612348e131086d80fd5c333",
+      "size": 37573723
     }
   }
 }
