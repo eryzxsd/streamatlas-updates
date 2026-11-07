@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 48,
-  "versionName": "1.6.5",
+  "versionCode": 49,
+  "versionName": "1.6.6",
   "minSdk": 23,
-  "notes": "Reduced Guide refresh work while schedules load. TV Channels filters can be reached with the D-pad. Removed the LIVE badge from the Home preview. Both players use a redesigned dock on TV and phones.",
+  "notes": "New centered Now Watching fullscreen dock on TV and phones, with channel information above grouped controls. Every player control has a white outline, with a brighter outline for focus. Available in Normal and Compatibility players.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.5/StreamAtlas-1.6.5-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.5/StreamAtlas-1.6.5-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.5/StreamAtlas-1.6.5-armv7.apk",
-      "sha256": "ba04076798132a31c2231f88f499cf336b2ce7081320d37d3da211e0600cb98f",
-      "size": 33505216
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-armv7.apk",
+      "sha256": "20bbb2546bfc71ca70aa60aeaca14910f5d06f5b4718730c7cc837de4640eef3",
+      "size": 33676042
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.5/StreamAtlas-1.6.5-arm64.apk",
-      "sha256": "03a0c9cd7b13e133d4ff614be70e46dd370a8d0374633eeb3897dd93f99db0e4",
-      "size": 37572278
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.6/StreamAtlas-1.6.6-arm64.apk",
+      "sha256": "967dcac9156ff704d505200d578e99f5ea5dcbde8ed8ca34059676d69f549b5f",
+      "size": 37743092
     }
   }
 }
