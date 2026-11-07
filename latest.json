@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 45,
-  "versionName": "1.6.2",
+  "versionCode": 46,
+  "versionName": "1.6.3",
   "minSdk": 23,
-  "notes": "Redesigned Android TV Home with a Settings gear beside Search, a wider programme preview, and six channels visible at 960x540. Updated the fullscreen channel header and remote-focus controls in both players.",
+  "notes": "Mobile fullscreen redesign in Normal and Compatibility players with channel identity, current programme, and a compact icon bar.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-armv7.apk",
-      "sha256": "514c5a60eae889c6d3ce7aa83aea9d06f53f35c83b2d307ade27a3c1ba15b961",
-      "size": 34833438
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-armv7.apk",
+      "sha256": "879994d073054fe0dbc5baf9f7518eb2dd4a4a6bbfa60d17e05e7a22dad4efc1",
+      "size": 33500429
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.2/StreamAtlas-1.6.2-arm64.apk",
-      "sha256": "cbdd1ffdc579752dceaab00a10f9e83128dc14877a8fbe5d9bf998a499951146",
-      "size": 38900488
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.3/StreamAtlas-1.6.3-arm64.apk",
+      "sha256": "939113a7f498cc4237d1d312160ce566627d9390a288c385be68e2a49cbf2a0c",
+      "size": 37567489
     }
   }
 }
