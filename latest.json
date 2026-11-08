@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 59,
-  "versionName": "1.6.16",
+  "versionCode": 60,
+  "versionName": "1.6.17",
   "minSdk": 23,
-  "notes": "TV focus in the normal player now matches the phone pressed state. Programme reminder dialogs use Material 3 typography and buttons on phone and TV.",
+  "notes": "The gear opens Player controls, while Quality uses the sliders icon. Fullscreen clock placement has six options under Settings > Playback. Guide and Channels have a Back to top arrow in the toolbar.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.16/StreamAtlas-1.6.16-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.16/StreamAtlas-1.6.16-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.16/StreamAtlas-1.6.16-armv7.apk",
-      "sha256": "961f992b29ddd6b711b75ddbb8336bdebe9d94a12c25b2ff3224482980614927",
-      "size": 41093749
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-armv7.apk",
+      "size": 41093592,
+      "sha256": "5ec40cfb914ccb5566e96d41990458af3acf5c5a168d41858d3e7a0e2b976633"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.16/StreamAtlas-1.6.16-arm64.apk",
-      "sha256": "51a84ed009ebd8687839f456040a66a6a5cad5588d54bc22942d32533d1d29a6",
-      "size": 45161178
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-arm64.apk",
+      "size": 45161024,
+      "sha256": "ec86e65b4b5c058112e8d30658fd59d337f76e420f2068a8b31bc8a379f58b46"
     }
   }
 }
