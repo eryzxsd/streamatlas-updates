@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 72,
-  "versionName": "1.6.29",
+  "versionCode": 73,
+  "versionName": "1.6.30",
   "minSdk": 24,
-  "notes": "Search and Settings now open as full-screen TV pages. Back returns to the previous screen and restores remote focus.\nThe browser skips layout and routine Guide refreshes while either page is open. Guide avoids rescanning channel coverage before a listing can expire.",
+  "notes": "TV Search only filters search results. Channels, Guide and Favorites no longer use the search query as a filter. Full-screen Search and the player channel sidebar still share the remembered query.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.29/StreamAtlas-TV-1.6.29-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.29/StreamAtlas-TV-1.6.29-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.30/StreamAtlas-TV-1.6.30-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.30/StreamAtlas-TV-1.6.30-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.29/StreamAtlas-TV-1.6.29-armv7.apk",
-      "size": 45270065,
-      "sha256": "300941c198390bf87ae9e73b53219e72737fc19a1b165e3f57e39470baeafdc4"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.30/StreamAtlas-TV-1.6.30-armv7.apk",
+      "size": 45270141,
+      "sha256": "9efec26234a1edcb7238776a49dbd8b50274060a74b8f5aca910e6eb7317ec86"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.29/StreamAtlas-TV-1.6.29-arm64.apk",
-      "size": 49339449,
-      "sha256": "42de68626295928bd764905864acedead20f4e2145c6ec2ac7a71049c6d7cb79"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.30/StreamAtlas-TV-1.6.30-arm64.apk",
+      "size": 49339529,
+      "sha256": "882df9621e6d9fcfdfceb13a7f518e88309f58167fcfbe01450b415de322ace5"
     }
   }
 }
