@@ -1,0 +1,23 @@
+{
+  "packageName": "org.streamatlas.player.debug",
+  "versionCode": 68,
+  "versionName": "1.6.25",
+  "minSdk": 24,
+  "notes": "StreamAtlas TV now has its own release track. TV tab motion is shorter, and switching pages avoids a duplicate refresh.\nInstall this update manually from 1.6.24 to move to the TV update feed. Subsequent TV updates can be checked in the app.",
+  "downloads": {
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.25/StreamAtlas-TV-1.6.25-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.25/StreamAtlas-TV-1.6.25-arm64.apk"
+  },
+  "directDownloads": {
+    "armeabi-v7a": {
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.25/StreamAtlas-TV-1.6.25-armv7.apk",
+      "size": 45228553,
+      "sha256": "b23ede64ef8992e0f44001807c9af62fee9870583f9b506e387f6df5a8378774"
+    },
+    "arm64-v8a": {
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.25/StreamAtlas-TV-1.6.25-arm64.apk",
+      "size": 49297941,
+      "sha256": "43a13379034c962731910373c83220eee9e18e0073f5e7724d8c4019f7acee11"
+    }
+  }
+}
