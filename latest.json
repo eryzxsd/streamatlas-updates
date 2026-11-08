@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 56,
-  "versionName": "1.6.13",
+  "versionCode": 57,
+  "versionName": "1.6.14",
   "minSdk": 23,
-  "notes": "The normal TV player now matches the phone button styling, with Live on the left and playback controls on the right. Phone and TV controls fade and slide, and the clock hides while controls are visible. A compact loading panel distinguishes starting, buffering, and reconnecting. Channels search no longer filters Home watch history.",
+  "notes": "The normal TV player now shows the programme and channel in a compact upper-left fullscreen badge. Focused TV buttons use a mint edge and slight scale change, with a distinct pressed state.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.13/StreamAtlas-1.6.13-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.13/StreamAtlas-1.6.13-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.14/StreamAtlas-1.6.14-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.14/StreamAtlas-1.6.14-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.13/StreamAtlas-1.6.13-armv7.apk",
-      "sha256": "8ec988f2e47e903289005265a99511d440ebf7e9ff03971de5689a0fa047677e",
-      "size": 41093671
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.14/StreamAtlas-1.6.14-armv7.apk",
+      "sha256": "b1b79d7afbdc0394e26c8694d3221c8c2e04b93dbe589eb23ec61b662c212430",
+      "size": 41094003
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.13/StreamAtlas-1.6.13-arm64.apk",
-      "sha256": "7628935e825b8ff19fb830f79a87701b4376bbb536c4dd516d841162999c0ac6",
-      "size": 45161110
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.14/StreamAtlas-1.6.14-arm64.apk",
+      "sha256": "d314b0306744a5e11416d08a66d9c2be0a92b37b7ceafeab0f6e301a0b7a752b",
+      "size": 45161437
     }
   }
 }
