@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 65,
-  "versionName": "1.6.22",
+  "versionCode": 66,
+  "versionName": "1.6.23",
   "minSdk": 24,
-  "notes": "CC and Player controls now open the same subtitle picker. Captions sit higher and clear the fullscreen controls. Caption style saves appearance, text size, and vertical position.",
+  "notes": "Back to top appears after about one screen of scrolling in Channels and Guide on phones and Android TV, and is removed from Favorites.\nAndroid TV dropdowns in Settings and Caption style now open a remote-friendly choice dialog.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.23/StreamAtlas-1.6.23-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.23/StreamAtlas-1.6.23-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-armv7.apk",
-      "size": 44721711,
-      "sha256": "5e16c6af3c7fa8cf5d07274daab0361d38439f3b038e94906a5f7bc25023938f"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.23/StreamAtlas-1.6.23-armv7.apk",
+      "size": 44724667,
+      "sha256": "ccec5a47aadb5a83821f130be480c31f5c6ebeac2343698c0bb9d340253b183e"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-arm64.apk",
-      "size": 48791099,
-      "sha256": "36c41d669d6bae1bcc0f4be88cfcb34014f39b9cbcc56f1528fcd18266e2b16e"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.23/StreamAtlas-1.6.23-arm64.apk",
+      "size": 48794055,
+      "sha256": "48d7378ead51eee0726324ab16d99e9784af04f648b0cbff4dda1dfe14f359ed"
     }
   }
 }
