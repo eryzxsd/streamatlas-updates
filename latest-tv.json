@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 69,
-  "versionName": "1.6.26",
+  "versionCode": 70,
+  "versionName": "1.6.27",
   "minSdk": 24,
-  "notes": "TV safe interface now moves the tab highlight instantly in the main navigation and Settings. Selecting the current Settings category skips a form rebuild.\nOn Home, Up from the first Live now row reaches the tabs. Left from the leftmost tile or Down from Home with a channel selected opens the player bar.",
+  "notes": "Switching tabs now reuses the filtered channel list when the filters are unchanged. Browsing tabs keep the existing mini-player layout to avoid unnecessary layout work.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.26/StreamAtlas-TV-1.6.26-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.26/StreamAtlas-TV-1.6.26-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.27/StreamAtlas-TV-1.6.27-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.27/StreamAtlas-TV-1.6.27-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.26/StreamAtlas-TV-1.6.26-armv7.apk",
-      "size": 45229321,
-      "sha256": "409416afb8b30d4fcc725f5843a6553f7ea8ed6b51c1e2a942abaed5b6dec08f"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.27/StreamAtlas-TV-1.6.27-armv7.apk",
+      "size": 45229729,
+      "sha256": "ba7216d909c41bc9376cd54fb2861dc36352cec210dbd70248406266fd1e4cfd"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.26/StreamAtlas-TV-1.6.26-arm64.apk",
-      "size": 49298709,
-      "sha256": "a7b8d379caf5ffd43cc5b665f90bf389241d26a491c7717e17a8c7b4ca3163cd"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.27/StreamAtlas-TV-1.6.27-arm64.apk",
+      "size": 49299113,
+      "sha256": "8ca2666c5b063f70bf4deffc1691bb8dbed73615d4a2ceab54461548510d3a26"
     }
   }
 }
