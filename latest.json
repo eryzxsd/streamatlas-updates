@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 54,
-  "versionName": "1.6.11",
+  "versionCode": 55,
+  "versionName": "1.6.12",
   "minSdk": 23,
-  "notes": "Mobile now uses the same settings gear as Android TV. Settings > App displays the installed version on phones and TVs.",
+  "notes": "Redesigned phone playback controls on Home and in fullscreen. Live is now solid red with white text. On TV, Left and Right move across the fullscreen controls, and Back returns focus to Channels when the browser was opened from that button.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.12/StreamAtlas-1.6.12-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.12/StreamAtlas-1.6.12-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-armv7.apk",
-      "sha256": "603f1d0d4f637efadd680e32af9a7e7aed0c9da1d6bf0795c5a6962320f2ef75",
-      "size": 41087972
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.12/StreamAtlas-1.6.12-armv7.apk",
+      "sha256": "5935373e8ef51f3e9a9d4379802ec591435cd833f4ed728c1a0457ff6c3f5a5f",
+      "size": 41091738
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-arm64.apk",
-      "sha256": "72cfe9625cddc5e2eac7a22eb7403b3010986c72af87e356e044082d7b469a63",
-      "size": 45155401
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.12/StreamAtlas-1.6.12-arm64.apk",
+      "sha256": "19b89a17a6c9a087382d0335ad854cb678a63406066a8cd7181e5b170c87ab85",
+      "size": 45159175
     }
   }
 }
