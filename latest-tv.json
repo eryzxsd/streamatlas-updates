@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 74,
-  "versionName": "1.6.31",
+  "versionCode": 75,
+  "versionName": "1.6.32",
   "minSdk": 24,
-  "notes": "Live now on StreamAtlas TV recommends up to six channels. New viewers get a mix of categories from enabled playlists, with a preference for channels airing a programme. Watch history and favorites shape later picks. Recommendations are ranked in the background.",
+  "notes": "StreamAtlas TV opens the Guide with saved programme listings while fresh listings load in the background. Once the Guide has been saved, a slow feed no longer holds up those listings. The first load still depends on the guide providers.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.31/StreamAtlas-TV-1.6.31-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.31/StreamAtlas-TV-1.6.31-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.32/StreamAtlas-TV-1.6.32-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.32/StreamAtlas-TV-1.6.32-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.31/StreamAtlas-TV-1.6.31-armv7.apk",
-      "size": 45277417,
-      "sha256": "0eeaaedc68a407746b3492829f0047278f3cdfcbd43c0b7913ecbcbb24b7b791"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.32/StreamAtlas-TV-1.6.32-armv7.apk",
+      "size": 45677700,
+      "sha256": "12dfdff44104431fb6a2b8504724304ccb95d1e4778657673c8621a060fff3e4"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.31/StreamAtlas-TV-1.6.31-arm64.apk",
-      "size": 49346801,
-      "sha256": "566c302c57cbea8a128ceac49135237c7bf891be24b8c5586a266543aac9781b"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/tv-v1.6.32/StreamAtlas-TV-1.6.32-arm64.apk",
+      "size": 49747088,
+      "sha256": "739460a885074fd9ba75f1eca74abe239c8216924aae295717a6e91bf8cc22c9"
     }
   }
 }
