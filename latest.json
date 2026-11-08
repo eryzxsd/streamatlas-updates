@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 52,
-  "versionName": "1.6.9",
+  "versionCode": 53,
+  "versionName": "1.6.10",
   "minSdk": 23,
-  "notes": "Redesigned Android TV Home, Channels, Guide, and Favorites. Home shows programme progress and what is next. The Channels side panel previews programme details as you move focus. The main app uses native Android UI with Jetpack Compose and Material 3.",
+  "notes": "Mobile Home has a new Compose Material 3 programme card with On now, progress, and Up next. Channels has new Material 3 filters. Lists scroll behind the floating glass navigation while the mini-player and Back to top remain above it.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-armv7.apk",
-      "sha256": "d6944057ae4240719a6bc091854f74850443db96320e4cc7761186558179d20f",
-      "size": 41082087
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-armv7.apk",
+      "sha256": "7c11b9283c28ceec531a9be0206dbdd98f5f0a7e20b5ee99c0cb2a853f1e324e",
+      "size": 41087925
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.9/StreamAtlas-1.6.9-arm64.apk",
-      "sha256": "41d89d1af190806fbef8f0382a01a74395253019dde3ff596e601a816027206a",
-      "size": 45149517
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-arm64.apk",
+      "sha256": "ca7a05767a0699a1d94bbac95144370ca59c76ec4ebdbd5eb9a9a773be4057ad",
+      "size": 45155357
     }
   }
 }
