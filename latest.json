@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 60,
-  "versionName": "1.6.17",
+  "versionCode": 61,
+  "versionName": "1.6.18",
   "minSdk": 23,
-  "notes": "The gear opens Player controls, while Quality uses the sliders icon. Fullscreen clock placement has six options under Settings > Playback. Guide and Channels have a Back to top arrow in the toolbar.",
+  "notes": "Updated Media3 to 1.11.1 and Material Components to 1.14.0. The normal phone player uses the official Material 3 mute control. Back to top is at the lower edge of the Channels and Guide lists.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-armv7.apk",
-      "size": 41093592,
-      "sha256": "5ec40cfb914ccb5566e96d41990458af3acf5c5a168d41858d3e7a0e2b976633"
+      "size": 43424529,
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-armv7.apk",
+      "sha256": "ae83840d386b3e1f905014a1a4bce1bd14741817ae4add780c4c38e672bb2f49"
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.17/StreamAtlas-1.6.17-arm64.apk",
-      "size": 45161024,
-      "sha256": "ec86e65b4b5c058112e8d30658fd59d337f76e420f2068a8b31bc8a379f58b46"
+      "size": 47491959,
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-arm64.apk",
+      "sha256": "801ffa7b27079cc48ef5b2dff1a467665f52c61bc32939bd0110dbe79b624428"
     }
   }
 }
