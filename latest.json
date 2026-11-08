@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 53,
-  "versionName": "1.6.10",
+  "versionCode": 54,
+  "versionName": "1.6.11",
   "minSdk": 23,
-  "notes": "Mobile Home has a new Compose Material 3 programme card with On now, progress, and Up next. Channels has new Material 3 filters. Lists scroll behind the floating glass navigation while the mini-player and Back to top remain above it.",
+  "notes": "Mobile now uses the same settings gear as Android TV. Settings > App displays the installed version on phones and TVs.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-armv7.apk",
-      "sha256": "7c11b9283c28ceec531a9be0206dbdd98f5f0a7e20b5ee99c0cb2a853f1e324e",
-      "size": 41087925
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-armv7.apk",
+      "sha256": "603f1d0d4f637efadd680e32af9a7e7aed0c9da1d6bf0795c5a6962320f2ef75",
+      "size": 41087972
     },
     "arm64-v8a": {
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.10/StreamAtlas-1.6.10-arm64.apk",
-      "sha256": "ca7a05767a0699a1d94bbac95144370ca59c76ec4ebdbd5eb9a9a773be4057ad",
-      "size": 45155357
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.11/StreamAtlas-1.6.11-arm64.apk",
+      "sha256": "72cfe9625cddc5e2eac7a22eb7403b3010986c72af87e356e044082d7b469a63",
+      "size": 45155401
     }
   }
 }
