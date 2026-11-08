@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 61,
-  "versionName": "1.6.18",
-  "minSdk": 23,
-  "notes": "Updated Media3 to 1.11.1 and Material Components to 1.14.0. The normal phone player uses the official Material 3 mute control. Back to top is at the lower edge of the Channels and Guide lists.",
+  "versionCode": 64,
+  "versionName": "1.6.21",
+  "minSdk": 24,
+  "notes": "Requires Android 7.0 or newer. Adds Compose Material 3 Expressive, the compact phone mini-player, and Glide 5.0.9. Targets Android 16 with edge-to-edge support. Includes FFmpeg audio fallback.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "size": 43424529,
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-armv7.apk",
-      "sha256": "ae83840d386b3e1f905014a1a4bce1bd14741817ae4add780c4c38e672bb2f49"
+      "sha256": "5a30ac2b92cf557922366c2b689755051cad1618a7b054ef27286d3a175e3f0c",
+      "size": 44717927,
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-armv7.apk"
     },
     "arm64-v8a": {
-      "size": 47491959,
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.18/StreamAtlas-1.6.18-arm64.apk",
-      "sha256": "801ffa7b27079cc48ef5b2dff1a467665f52c61bc32939bd0110dbe79b624428"
+      "sha256": "1c79db24c1b5c6ac3168055d75914c32f15558fb56fe88376775f72dd03ffcdb",
+      "size": 48787315,
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-arm64.apk"
     }
   }
 }
