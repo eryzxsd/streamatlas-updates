@@ -1,23 +1,23 @@
 {
   "packageName": "org.streamatlas.player.debug",
-  "versionCode": 64,
-  "versionName": "1.6.21",
+  "versionCode": 65,
+  "versionName": "1.6.22",
   "minSdk": 24,
-  "notes": "Requires Android 7.0 or newer. Adds Compose Material 3 Expressive, the compact phone mini-player, and Glide 5.0.9. Targets Android 16 with edge-to-edge support. Includes FFmpeg audio fallback.",
+  "notes": "CC and Player controls now open the same subtitle picker. Captions sit higher and clear the fullscreen controls. Caption style saves appearance, text size, and vertical position.",
   "downloads": {
-    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-armv7.apk",
-    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-arm64.apk"
+    "armeabi-v7a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-armv7.apk",
+    "arm64-v8a": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-arm64.apk"
   },
   "directDownloads": {
     "armeabi-v7a": {
-      "sha256": "5a30ac2b92cf557922366c2b689755051cad1618a7b054ef27286d3a175e3f0c",
-      "size": 44717927,
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-armv7.apk"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-armv7.apk",
+      "size": 44721711,
+      "sha256": "5e16c6af3c7fa8cf5d07274daab0361d38439f3b038e94906a5f7bc25023938f"
     },
     "arm64-v8a": {
-      "sha256": "1c79db24c1b5c6ac3168055d75914c32f15558fb56fe88376775f72dd03ffcdb",
-      "size": 48787315,
-      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.21/StreamAtlas-1.6.21-arm64.apk"
+      "url": "https://github.com/eryzxsd/streamatlas-updates/releases/download/v1.6.22/StreamAtlas-1.6.22-arm64.apk",
+      "size": 48791099,
+      "sha256": "36c41d669d6bae1bcc0f4be88cfcb34014f39b9cbcc56f1528fcd18266e2b16e"
     }
   }
 }
